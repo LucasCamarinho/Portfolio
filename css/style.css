@@ -38,7 +38,6 @@ p, h1,h2,h3,h4,h5{
     --background-2: rgb(230, 230, 230);
     --background-3: rgb(200, 200, 200);
     --link-color: orangered;
-    --link-color2:green;
     --text-color1:rgb(85,85,85);
     --text-color2:rgb(180, 180, 180);
 
@@ -52,7 +51,6 @@ p, h1,h2,h3,h4,h5{
     --background-2: #22272e;
     --background-3: #2d333b;
     --link-color: green;
-    --link-color2: orangered;
     --text-color1:rgb(170, 170, 170);
     --text-color2:rgb(100, 100, 100);
 
@@ -377,15 +375,16 @@ body{
 #about-me h1{
     margin-bottom: 1rem;
 }
-#about-me a {
+#about-me strong{
     color: var(--link-color);
 }
 
 .link-download{
-   margin-top: 1rem;
+   margin-top: 2rem;
+   margin-left: 1rem;
 }
-.link-download:hover{
-   color: var(--link-color2);
+.link-download a:hover{
+   color: var(--link-color);
 }
 
 /* footer */
@@ -440,6 +439,9 @@ footer{
 #copy{
     background: var(--background-2);
     color: var(--text-color1);
+}
+#copy:hover{
+    color: var(--link-color);
 }
 
 
